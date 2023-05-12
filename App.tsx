@@ -26,13 +26,17 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import FirstView from '@/pages/demo/first_view'
+import Navigation from '@/pages/demo/navigator'
 
 
 function App(): JSX.Element {
 
 
   return (
-    <FirstView />
+    <>
+      {/* <FirstView /> */}
+      <Navigation />
+    </>
   );
 }
 
